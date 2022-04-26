@@ -30,6 +30,7 @@ h2 { font-size: 2.2rem;
 	margin-right: auto;
 	max-width: 1200px;
 	overflow-x: hidden;
+
 }
 
 .intro{
@@ -38,6 +39,9 @@ h2 { font-size: 2.2rem;
 
 
 /*addnew*/
+
+
+
 
 .video-container {
 
@@ -120,12 +124,24 @@ h2 { font-size: 2.2rem;
 }
 
 
+.filtr-container{
+
+
+
+
+}
+
 .filtr-item{
+
+
 	
 }
 .filtr-item img{
 	width:100%;
-	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.192)	
+	padding-left: 0px;
+	
+	
+
 }
 
 
@@ -237,10 +253,34 @@ h2 { font-size: 2.2rem;
 	margin: 0 auto 80px;
 }
 
-.tm-content-box {
-	max-width: 310px;
-	margin: 0 auto;
+
+
+.filtr-item.tm-content-box img{
+	padding-left: 0px;
+	
 }
+
+
+
+.tm-content-box {
+	max-width: 400px;
+	margin-left: -10px;
+	margin-right: -10px; 
+	
+
+	
+	
+}
+h4.projectintro{
+
+	padding-left: 20px;
+}
+ p.projectintro{
+
+	padding-left: 20px;
+
+}
+
 
 h3 { font-size: 1.65rem; }
 h4 { 
